@@ -1,0 +1,185 @@
+h1{
+text-align: center;
+font-size: 150px;
+font-style:serif;
+color: #281B1B;
+
+}
+.nav{
+display: flex;
+justify-content: space-around;
+}
+.first-photo{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left:3rem;
+max-width: 100%; 
+margin-bottom: 40px;
+border-radius:50px ;
+    
+}
+.gallery-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap:70px;
+}
+.gallery-item{
+border-radius: 50px;
+max-width: 100%;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+list-style-type: none;
+
+}
+.nav-links div {
+text-decoration: none;
+color: black;
+font-weight: 500;
+font-size: 28px;
+line-height: 42px;
+margin-left: 1rem;
+display: flex;
+justify-content: end;
+padding-top: 0.8rem;
+}
+.logo{
+text-decoration: none;
+color: black;
+font-weight: 500;
+font-size: 42px;
+line-height: 42px;
+margin-right: 40rem;
+
+}
+.category{
+line-height: 4px;
+font-weight: 400px;
+font-size: 17px;
+color: #2E14149E;
+}
+.project{
+font-weight: 400px;
+line-height: 24px;
+font-size: 20px;
+color: #281B1B;
+}
+.info{
+font-weight: 400px;
+font-size: 24px;
+line-height: 32px;
+color: #281B1B;
+margin-left: 60rem;
+margin-top: 5.9rem;
+}
+.connect{
+font-weight: 700px;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+margin-top: 10rem;
+}
+.enter{
+width:  600px;
+height: 56px;
+gap: 12px;
+display: flex;
+margin-left:30rem ;
+}
+input{
+width: 400px;
+margin: 10px;
+border-radius: 16px;
+border: 1.5px solid #FFFAFA;
+background: #FFFAFA;
+height: 20px;
+padding: 12px 22px 12px 22px;
+gap: 8px;
+
+
+}
+
+.sub{
+cursor:pointer;
+width: 167px;
+height:56px ;
+border-radius: 16px;
+background-color: red;
+color: white;
+padding: 16px 36px 16px 36px;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+}
+.social-media{
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 44px;
+margin-top: 40px;
+}
+.social1{
+width: 37.5px;
+height: 37.5px;
+cursor: pointer;
+}
+.social2{
+width: 42.83px;
+height: 42.83px;
+cursor: pointer;
+}
+.social3{
+width: 35.2px;
+height: 35.23px;
+cursor: pointer;
+}
+.footer{
+width: 1,344px;
+height:444px;
+padding: 96px 0px 96px 0px;
+gap: 54px;
+border: 1.5px ;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cons{
+    height: 3vw;
+    width: 7vw;
+    background-color:white;
+    border: .1vw solid #6E494933;
+    padding-left: 4vw;
+    align-items: center;
+    border-radius: 1vw;
+    margin-right: 3vw;
+}
+.bottom .boom {
+color: rgba(46, 20, 20, 0.62);
+margin-left: 2.4vw;
+}
+.contact p{
+margin-left: 70rem;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+color: #281B1B;
+
+
+}
+.gallery-item{
+    cursor: pointer;
+}
+.gallery-container :hover{
+transform: scale(104%);
+}
+.social-media :hover{
+    transform: scale(120%);
+}
+
+
